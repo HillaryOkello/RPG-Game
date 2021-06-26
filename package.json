@@ -27,6 +27,7 @@
     "stylelint-scss": "^3.19.0"
   },
   "dependencies": {
-    "optionator": "^0.9.1"
+    "optionator": "^0.9.1",
+    "phaser": "^3.55.2"
   }
 }
