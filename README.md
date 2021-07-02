@@ -19,7 +19,7 @@
 ## Live Demo
 
 **If the game take too long to load OR stuck at 91% do reload your the browser page** <br>
-[Live Demo Link]()
+[Live Demo Link](https://musicmedal.netlify.app/)
 
 
 ## Game Design Document
