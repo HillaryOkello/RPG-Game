@@ -11,7 +11,24 @@
 <title>RPG Game</title>
 </head>
 <body>
-
+  <form class="flex-column" id="form">
+    <input
+      type="text"
+      placeholder="Enter Player Name."
+      name="user"
+      id="user"
+      class=""
+    />
+    <input
+      type="button"
+      name="submit"
+      id="submit"
+      value="Submit"
+      class="btn btn-warning text-white"
+    />
+  </form>
+  <div id="score" style="display: none"></div>
+  <div id="error" style="display: none"></div>
 <script src="main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
