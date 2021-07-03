@@ -1,6 +1,6 @@
 # RPG-Game
 
-> It's a 2d rpg game with an alien boy who loves collecting music medals. He has to collect the golden music medals on the field. The field also contains hidden mines which explode when touched. The boy has to use his instincts to avoid the mines.
+> It's a 2d rpg game with an alien boy who loves collecting music medals. He has to collect the golden music medals on the field. The field also contains hidden mines which explode when touched. The boy has to use his instincts to avoid the mines. The mines appear randomly incase you start the game and get game over message, it's because the mine appeared at the same spot as the player so it's part of the game. Just restart the game. The score board shows score of top 5 players. If your name does not appear its because you are not in the top 5 best players.
 
 ![screenshot](dist/assets/menu.png)
 

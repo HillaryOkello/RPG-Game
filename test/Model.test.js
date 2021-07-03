@@ -1,5 +1,6 @@
 /* eslint max-len: ["error", { "ignoreComments": true }] */
 /* eslint no-underscore-dangle: ["error", { "allow": ["_soundOn", "_musicOn", "_bgMusicPlaying"] }] */
+
 import Model from '../src/Model';
 
 describe('Test the Model class', () => {

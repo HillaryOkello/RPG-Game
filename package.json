@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "An RPG game made using JavaScript and Phaser library",
   "main": "webpack.config.js",
+  "build": "webpack --config webpack.config.js",
   "scripts": {
     "test": "jest"
   },
