@@ -41,8 +41,8 @@ export default class PreloaderScene extends Phaser.Scene {
           div.appendChild(nameDiv);
           div.appendChild(scoreDiv);
           board.appendChild(div);
+          this.menuButton = new Button(this, config.width / 2, config.height / 2, 'blueButton1', 'blueButton2', 'Menu', 'Title');
         });
       });
-    this.menuButton = new Button(this, config.width / 2, config.height / 2, 'blueButton1', 'blueButton2', 'Menu', 'Title');
   }
 }

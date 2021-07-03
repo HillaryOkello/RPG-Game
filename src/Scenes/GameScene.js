@@ -2,6 +2,7 @@ import Phaser from 'phaser';
 import createPlayerAnims from '../animations/Player';
 import { Align } from '../align';
 import scoreSystem from '../scores/api';
+import Button from '../objects/Button';
 
 export default class GameScene extends Phaser.Scene {
   constructor() {
@@ -126,6 +127,7 @@ export default class GameScene extends Phaser.Scene {
       loop: false,
       callback: () => {
         this.scene.start('Input');
+        this.menuButton = new Button(this, 400, 500, 'blueButton1', 'blueButton2', 'Menu', 'Title');
       },
     });
   }

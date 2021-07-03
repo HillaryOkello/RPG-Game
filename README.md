@@ -28,7 +28,6 @@ This is a game based on an alien boy who loves music with a mission to collect a
 He must avoid mines or otherwise he meets his doom.
 [Game Design Document (GDD) Link](./GDD.md)
 
-
 ### How to play
 
 - WALK:
@@ -60,21 +59,12 @@ He must avoid mines or otherwise he meets his doom.
 
 ```
 
-3- Run live server
-
+4- webpack compile
 ```
-    npm run server
+		npx webpack --watch
 ```
 
-4- Everything should be running by now.
-
-### JavaScript Build
-
-1- Run the next on your terminal in the repository folder
-
-```
-    npm start
-```
+5- run vs code live server
 
 ### Testing
 
@@ -83,6 +73,8 @@ Run the next on your terminal in the repository folder:
 ```
     npm run test
 ```
+
+## Author
 
 👤 **Hillary Okello**
 
