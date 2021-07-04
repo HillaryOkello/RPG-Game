@@ -79,7 +79,6 @@ export default class GameScene extends Phaser.Scene {
   }
 
   update() {
-    // this.scoreText.setScrollFactor(0, 0);
     if (this.cursors.left.isDown) {
       this.player.anims.play('left', true);
       this.player.body.setVelocityX(-80);
