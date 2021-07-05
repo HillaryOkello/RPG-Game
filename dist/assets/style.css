@@ -1,0 +1,17 @@
+#form {
+  position: absolute;
+  top: 280px;
+  left: 220px;
+  display: none;
+  width: 242px;
+}
+
+#score {
+  position: absolute;
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  color:black;
+  top: 100px;
+  left: 20%;
+}

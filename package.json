@@ -1,0 +1,39 @@
+{
+  "name": "rpg-game",
+  "version": "1.0.0",
+  "description": "An RPG game made using JavaScript and Phaser library",
+  "main": "webpack.config.js",
+  
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HillaryOkello/RPG-Game.git"
+  },
+  "author": "Hillary Okello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HillaryOkello/RPG-Game/issues"
+  },
+  "homepage": "https://github.com/HillaryOkello/RPG-Game#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "jest": "^27.0.6",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.19.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.14.7",
+    "jest-fetch-mock": "^3.0.3",
+    "optionator": "^0.9.1",
+    "phaser": "^3.55.2",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
